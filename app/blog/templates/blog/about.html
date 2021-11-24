@@ -1,4 +1,15 @@
-{% extends "blog/base.html" %}
+{% extends 'blog/base.html' %}
 {% block content %}
-    <h1>About Page</h1>
+    <div class="content-section">
+        <h1>About</h1>
+        <h6>Lets Blog is a blogging website which is build using django as backend, containerized on docker and hosted on AWS S3 to provide container as a service.</h6>
+        <h6></h6>
+        <h6>Features :-</h6>
+        <ul>
+            <li>Create, Update and Delete posts.</li>
+            <li>Login, Logout.</li>
+            <li>Create and Update profile, Set profile picture.</li>
+            <li>Password reset using Email.</li>
+        </ul>
+    </div>
 {% endblock content %}
