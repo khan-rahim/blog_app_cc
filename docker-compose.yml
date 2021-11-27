@@ -21,10 +21,10 @@ services:
       - DB_USER=devuser
       - DB_PASS=changeme
       - EMAIL_USER=mrk191198@gmail.com
-      - EMAIL_PASS=gnwtqhxhzfkzqqdb
-      - AWS_ACCESS_KEY_ID=AKIAXQ35CJ5DM2R5K5ZK
-      - AWS_SECRET_ACCESS_KEY=o6syjrmfR0f6rd8rTF1Kbg8RzdqoLhrClEFUMSfh
-      - AWS_STORAGE_BUCKET_NAME=mrk-django-docker-app
+      - EMAIL_PASS=samplepass
+      - AWS_ACCESS_KEY_ID=samplekey
+      - AWS_SECRET_ACCESS_KEY=sampleaccesskey
+      - AWS_STORAGE_BUCKET_NAME=sample-app
     depends_on:
       - db
   
